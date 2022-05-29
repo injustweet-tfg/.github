@@ -1,6 +1,7 @@
 # ⚖️ Injustweet 
-Visibilizando injusticias laborales publicadas en Twitter a través de una plataforma descentralizada basada en blockchain
 
+_Visibilizando injusticias laborales publicadas en Twitter a través de una plataforma descentralizada basada en blockchain.
+_
 ## 📚 Sobre el proyecto 
 
 En nuestro día a día, se producen numerosas situaciones de **injusticia** en el **entorno laboral**. Sin embargo, muchas veces, los medios tradicionales de denuncia no son suficiente para visibilizarlas. En los últimos años, con la aparición y expansión de las **redes sociales**, muchas personas han recurrido a ellas para hacerse oír. En particular, Twitter ha jugado un papel muy importante a la hora de visibilizar iniciativas y unir a gente con intereses comunes.
