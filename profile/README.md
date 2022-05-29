@@ -18,8 +18,8 @@ La arquitectura de la aplicación se divide en tres bloques; el primero recoge d
 
 ### Bloque 1: Recoger datos
 
-- [Previous-work-related-to-data-recollection](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection)
-- [Data-Recollection](https://github.com/injustweet-tfg/Data-Recollection)
+- [Previous-work-related-to-data-recollection](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection): Códigos empleados a lo largo del desarrollo del proyecto que han contribuido en diversas tareas auxiliares al proyecto final.
+- [Data-Recollection](https://github.com/injustweet-tfg/Data-Recollection): Código principal del proyecto ejecutado por los servidores de recolección de datos.
 
 
 ### Bloque 2: Guardar datos
