@@ -1,4 +1,5 @@
 # ⚖️ Injustweet 
+Visibilizando injusticias laborales publicadas en Twitter a través de una plataforma descentralizada basada en blockchain
 
 ## 📚 Sobre el proyecto 
 
