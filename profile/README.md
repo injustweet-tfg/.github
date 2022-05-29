@@ -1,5 +1,11 @@
 # ⚖️ Injustweet 
 
+## 🗃 Sobre el repositorio
+
+
+
+## 📚 Sobre el proyecto 
+
 En nuestro día a día, se producen numerosas situaciones de **injusticia** en el **entorno laboral**. Sin embargo, muchas veces, los medios tradicionales de denuncia no son suficiente para visibilizarlas. En los últimos años, con la aparición y expansión de las **redes sociales**, muchas personas han recurrido a ellas para hacerse oír. En particular, Twitter ha jugado un papel muy importante a la hora de visibilizar iniciativas y unir a gente con intereses comunes.
 
 En este contexto, percibimos que, aún significando un avance importante, pueden existir **problemas** si se usan exclusivamente las redes sociales como medio de denuncia. Por ejemplo, la denuncia puede ser censurada por medio de su eliminación, denuncias muy mediáticas pueden eclipsar a otras, o las denuncias pueden quedar ocultas entre la gran cantidad de contenido que hay en la red social. 
