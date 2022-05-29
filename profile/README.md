@@ -25,6 +25,7 @@ La arquitectura de la aplicación se divide en tres bloques; el primero recoge d
 - [API](https://github.com/injustweet-tfg/API)
 
 ### Bloque 3: Mostrar datos
-- [dashboard-twitter](https://github.com/injustweet-tfg/dashboard-twitter)
-- [cache-twitter](https://github.com/injustweet-tfg/cache-twitter)
-- [update-cache-twitter](https://github.com/injustweet-tfg/update-cache-twitter)
+- [cache-twitter](https://github.com/injustweet-tfg/cache-twitter):  Servidor que se encarga de recibir y gestionar peticiones sobre la base de datos de MongoDB.
+Esta base de datos actúa como una “memoria caché”. Las llamadas a IPFS son costosas, y además no pueden crearse índices para mejorar la eficiencia, ni tiene un gran variedad de consultas. Por lo tanto, se decide reducir la cantidad de accesos a IPFS a una vez cada dos días, momento en el cuál se actualiza la BBDD que se encarga de proporcionar datos a la aplicación web (“memoria caché”).
+- [dashboard-twitter](https://github.com/injustweet-tfg/dashboard-twitter): Representa el frontend de la aplicación. Muestra los datos recogidos en la BBDD que hemos construido.
+- [update-cache-twitter](https://github.com/injustweet-tfg/update-cache-twitter): Recoge datos de IPFS cada dos días para actualizar la “memoria caché”.
