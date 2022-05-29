@@ -1,7 +1,7 @@
 # ⚖️ Injustweet 
 
-_Visibilizando injusticias laborales publicadas en Twitter a través de una plataforma descentralizada basada en blockchain.
-_
+_Visibilizando injusticias laborales publicadas en Twitter a través de una plataforma descentralizada basada en blockchain._
+
 ## 📚 Sobre el proyecto 
 
 En nuestro día a día, se producen numerosas situaciones de **injusticia** en el **entorno laboral**. Sin embargo, muchas veces, los medios tradicionales de denuncia no son suficiente para visibilizarlas. En los últimos años, con la aparición y expansión de las **redes sociales**, muchas personas han recurrido a ellas para hacerse oír. En particular, Twitter ha jugado un papel muy importante a la hora de visibilizar iniciativas y unir a gente con intereses comunes.
@@ -17,16 +17,19 @@ El desarrollo de la aplicación aprovecha los últimos avances **metodológicos*
 La arquitectura de la aplicación se divide en tres bloques; el primero recoge datos (tweets) sobre denuncias laborales, otro los almacena de forma distribuida haciendo uso de la blockchain, y un último se encarga de mostrarlos en forma de dashboard en una página web. Todos los repositorios se pueden encuentran en este proyecto. A continuación detallamos cómo están organizados.
 
 ### Bloque 1: Recoger datos
+
 - [Previous-work-related-to-data-recollection](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection)
 - [Data-Recollection](https://github.com/injustweet-tfg/Data-Recollection)
 
 
 ### Bloque 2: Guardar datos
+
 - [smart-contract](https://github.com/injustweet-tfg/smart-contract)
 - [update-API](https://github.com/injustweet-tfg/update-API)
 - [API](https://github.com/injustweet-tfg/API)
 
 ### Bloque 3: Mostrar datos
+
 - [cache-twitter](https://github.com/injustweet-tfg/cache-twitter):  Servidor que se encarga de recibir y gestionar peticiones sobre la base de datos de MongoDB.
 Esta base de datos actúa como una “memoria caché”. Las llamadas a IPFS son costosas, y además no pueden crearse índices para mejorar la eficiencia, ni tiene un gran variedad de consultas. Por lo tanto, se decide reducir la cantidad de accesos a IPFS a una vez cada dos días, momento en el cuál se actualiza la BBDD que se encarga de proporcionar datos a la aplicación web (“memoria caché”).
 - [dashboard-twitter](https://github.com/injustweet-tfg/dashboard-twitter): Representa el frontend de la aplicación. Muestra los datos recogidos en la BBDD que hemos construido.
