@@ -24,9 +24,9 @@ La arquitectura de la aplicación se divide en tres bloques; el primero recoge d
 
 ### Bloque 2: Guardar datos
 
-- [smart-contract](https://github.com/injustweet-tfg/smart-contract)
-- [update-API](https://github.com/injustweet-tfg/update-API)
-- [API](https://github.com/injustweet-tfg/API)
+- [smart-contract](https://github.com/injustweet-tfg/smart-contract): Código del contrato inteligente hecho en Solidity que se encarga de guardar los identificadores de los tweets que se encuentran almacenados en IPFS junto con sus respectivos hashes de fichero para que poder recuperar la información de IPFS posteriormente y saber cuáles son los tweets actualizados.
+- [update-API](https://github.com/injustweet-tfg/update-API): Código del cron que se encarga de llamar a la API para actualizar los tweets de forma periódica.
+- [API](https://github.com/injustweet-tfg/API): Código de la API que se encarga del almacenamiento en IPFS de toda la información recogida, de pasarle al contrato los hashes para que pueda accederse a toda la información guardada, también de actualizar los datos que se encuentran tanto en IPFS como en el contrato inteligente y de devolver los datos actualizados con un formato correcto al cliente de la API que los solicite.
 
 ### Bloque 3: Mostrar datos
 
